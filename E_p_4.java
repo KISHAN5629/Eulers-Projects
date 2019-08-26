@@ -1,9 +1,8 @@
 //solution of project euler q-4::::
-import java.util.*;
-public class pal{
+class pallin{
 	
 	public static void main(String[] args) {
-		System.out.println(new pal().run());
+		System.out.println(new pallin().run());
 	}
 	public String run() {
 		int maxPalin = -1;
