@@ -1,7 +1,7 @@
  /*eulers proect problem-3*/
-public class pf {
+public class E_p_3 {
 	public static void main(String[] args) {
-		System.out.println(new pf().run());
+		System.out.println(new E_p_3().run());
 	}
 	public String run() {
 		long n = 600851475143L;
@@ -13,9 +13,8 @@ public class pf {
 				return Long.toString(n);
 		}
 	}
-	private static long smallestFactor(long n) {
-		if (n <= 1)
-			throw new IllegalArgumentException();
+	static long smallestFactor(long n) {
+
 		double end = Math.sqrt(n);
 		for (long i = 2; i <= end; i++) {
 			if (n % i == 0)
