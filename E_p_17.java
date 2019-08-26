@@ -12,7 +12,7 @@ public String count() {
 	}
 	return Integer.toString(sum);
 	}
-private static String toEnglish(int n) {
+	static String toEnglish(int n) {
 	if(0<=n&&n<20)
 		return ONES[n];
 	else if (20<=n&&n<100) 
@@ -22,7 +22,7 @@ private static String toEnglish(int n) {
 	else if (1000<=n && n<1000000)
 		return toEnglish(n/1000)+"thousand"+(n%1000!=0 ? toEnglish(n%1000):"");
 }
-private static String[] ONES= {"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fiften","sixteen","seventeen","eighteen","nineteen"};
-private static String[] TENS= {"","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"};
+	String[] ONES= {"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fiften","sixteen","seventeen","eighteen","nineteen"};
+	String[] TENS= {"","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"};
 }
 
