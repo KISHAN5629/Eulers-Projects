@@ -1,3 +1,5 @@
+//euler problem 6
+
 class euler_q_6 {
 
 	public static void main(String[] args) {
