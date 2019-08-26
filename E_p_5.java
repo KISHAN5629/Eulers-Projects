@@ -1,5 +1,5 @@
 	import java.math.BigInteger;
-	public class eulers_q_5{
+ class eulers_q_5{
 		
 		public static void main(String[] args) {
 			System.out.println(new eulers_q_5().div());
@@ -12,7 +12,7 @@
 		}
 		
 		
-		private static BigInteger lcm(BigInteger x, BigInteger y) {
+		static BigInteger lcm(BigInteger x, BigInteger y) {
 			return x.divide(x.gcd(y)).multiply(y);
 		}
 		
