@@ -13,13 +13,13 @@ return true;
 }
 public static void main (string[]args){
 int n=1;
-for(int i=3;i>0;i=i+2)
+for(int i=2;i>0;i++)
 {
 if(checkPrime(i)==true){
 n++;
 }
-if(n==1001){
-System.out.println("The 1001 prime number is "+i);
+if(n==10001){
+System.out.println("The 10001 prime number is "+i);
 break;
      }
    }
