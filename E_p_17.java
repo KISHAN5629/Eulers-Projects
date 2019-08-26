@@ -21,8 +21,6 @@ private static String toEnglish(int n) {
 		return ONES[n/100]+"hundres"+(n%100!=0 ? "and"+toEnglish(n%100):"");
 	else if (1000<=n && n<1000000)
 		return toEnglish(n/1000)+"thousand"+(n%1000!=0 ? toEnglish(n%1000):"");
-	else 
-		throw new IllegalArgumentException();
 }
 private static String[] ONES= {"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fiften","sixteen","seventeen","eighteen","nineteen"};
 private static String[] TENS= {"","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"};
